@@ -9,13 +9,11 @@ int main() {
     while (y < 1 || y>x) {
         cin >> y;
     }
-
     for (double x = 1; x < y; x += 1) {
         double a = 0;
         a = pow(x, 2);
         a = 1 / a;
-        //cout << " " << a << " ";
-        //cout << "x=" << x << endl;
+
         sum += a;
     }
     cout << "\n";
